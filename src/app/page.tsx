@@ -61,10 +61,10 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 pt-8 justify-center">
-              <Link href="/brand-dashboard" className="inline-flex items-center justify-center font-sans font-medium px-12 py-5 text-lg rounded-full bg-white text-black hover:bg-zinc-200 hover:scale-105 transition-all duration-300 shadow-[0_0_30px_rgba(255,255,255,0.3)]">
+              <Link href="https://demo.brand.creonity.com" className="inline-flex items-center justify-center font-sans font-medium px-12 py-5 text-lg rounded-full bg-white text-black hover:bg-zinc-200 hover:scale-105 transition-all duration-300 shadow-[0_0_30px_rgba(255,255,255,0.3)]">
                 For Brands
               </Link>
-              <Link href="/dashboard" className="inline-flex items-center justify-center font-sans font-medium px-12 py-5 text-lg rounded-full border border-white/30 hover:border-white/80 hover:bg-white/5 hover:scale-105 transition-all duration-300 group bg-brand-black/40 backdrop-blur-sm">
+              <Link href="https://demo.creator.creonity.com" className="inline-flex items-center justify-center font-sans font-medium px-12 py-5 text-lg rounded-full border border-white/30 hover:border-white/80 hover:bg-white/5 hover:scale-105 transition-all duration-300 group bg-brand-black/40 backdrop-blur-sm">
                 For Creators
                 <ArrowRight className="ml-3 w-5 h-5 group-hover:translate-x-2 transition-transform" />
               </Link>
